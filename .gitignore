@@ -1,11 +1,37 @@
+# Byte-compiled / cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Environment and IDE configs
 .env
+.envrc
 .DS_Store
+.idea/
+.vscode/
+
+# Logs and databases
 *.log
 *.sqlite3
 *.db
-.idea/
-.vscode/
-.envrc
 
+# Testing and type-checking
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Coverage reports
+.coverage
+htmlcov/
